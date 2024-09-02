@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4CD67EE2C806FA200565723 /* CopilotDummyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD67ED2C806FA200565723 /* CopilotDummyApp.swift */; };
+		B4CD67F02C806FA200565723 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD67EF2C806FA200565723 /* ContentView.swift */; };
+		B4CD67F22C806FA700565723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD67F12C806FA700565723 /* Assets.xcassets */; };
+		B4CD67F52C806FA700565723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD67F42C806FA700565723 /* Preview Assets.xcassets */; };
+		B4CD68002C806FAA00565723 /* CopilotDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD67FF2C806FAA00565723 /* CopilotDummyTests.swift */; };
+		B4CD680A2C806FAA00565723 /* CopilotDummyTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68092C806FAA00565723 /* CopilotDummyTestsUITests.swift */; };
+		B4CD680C2C806FAA00565723 /* CopilotDummyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD680B2C806FAA00565723 /* CopilotDummyUITestsLaunchTests.swift */; };
+		B4CD681B2C80703200565723 /* AssetsA.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD681A2C80703200565723 /* AssetsA.xcassets */; };
+		B4CD681D2C80704400565723 /* AssetsB.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD681C2C80704400565723 /* AssetsB.xcassets */; };
+		B4CD681F2C80704E00565723 /* AssetsC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD681E2C80704E00565723 /* AssetsC.xcassets */; };
+		B4CD68222C80707400565723 /* ViewA.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68212C80707400565723 /* ViewA.xib */; };
+		B4CD68242C80708500565723 /* ViewB.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68232C80708500565723 /* ViewB.xib */; };
+		B4CD68262C80708B00565723 /* ViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68252C80708B00565723 /* ViewC.xib */; };
+		B4CD68282C80709000565723 /* ViewD.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68272C80709000565723 /* ViewD.xib */; };
+		B4CD682A2C80709600565723 /* ViewE.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68292C80709600565723 /* ViewE.xib */; };
+		B4CD682D2C8070D700565723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD682C2C8070D700565723 /* Main.storyboard */; };
+		B4CD682F2C8070EE00565723 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD682E2C8070EE00565723 /* Launch.storyboard */; };
+		B4CD68352C80877600565723 /* SampleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68342C80877600565723 /* SampleUser.swift */; };
+		B4CD68372C80878300565723 /* SampleFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68362C80878300565723 /* SampleFood.swift */; };
+		B4CD683E2C80E31000565723 /* FooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD683D2C80E30F00565723 /* FooView.swift */; };
+		B4CD68402C80E31600565723 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD683F2C80E31500565723 /* BarView.swift */; };
+		B4CD68422C80E31C00565723 /* BazView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68412C80E31C00565723 /* BazView.swift */; };
+		B4CD68452C80E33F00565723 /* FooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68442C80E33F00565723 /* FooService.swift */; };
+		B4CD68472C80E35200565723 /* BarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68462C80E35200565723 /* BarService.swift */; };
+		B4CD68492C80E35900565723 /* BazService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68482C80E35900565723 /* BazService.swift */; };
+		B4CD684C2C80E36800565723 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD684B2C80E36800565723 /* Helper.swift */; };
+		B4CD684E2C80E36E00565723 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD684D2C80E36E00565723 /* Validator.swift */; };
+		B4CD68512C80E38C00565723 /* FooControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68502C80E38C00565723 /* FooControllerTests.swift */; };
+		B4CD68532C80E39300565723 /* BarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68522C80E39300565723 /* BarControllerTests.swift */; };
+		B4CD68552C80E39D00565723 /* BazControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68542C80E39D00565723 /* BazControllerTests.swift */; };
+		B4CD68582C80E3BA00565723 /* FooModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68572C80E3BA00565723 /* FooModelTests.swift */; };
+		B4CD685A2C80E3C400565723 /* BarModelTsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68592C80E3C400565723 /* BarModelTsets.swift */; };
+		B4CD685C2C80E3CD00565723 /* BazModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD685B2C80E3CD00565723 /* BazModelTests.swift */; };
+		B4CD685F2C80E3DA00565723 /* FooServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD685E2C80E3DA00565723 /* FooServiceTests.swift */; };
+		B4CD68612C80E3E300565723 /* BarServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68602C80E3E300565723 /* BarServiceTests.swift */; };
+		B4CD68632C80E3EA00565723 /* BazServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68622C80E3EA00565723 /* BazServiceTests.swift */; };
+		B4CD68662C80E40000565723 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68652C80E40000565723 /* HelperTests.swift */; };
+		B4CD68682C80E40900565723 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68672C80E40900565723 /* ValidatorTests.swift */; };
+		B4CD686A2C80E42A00565723 /* FooModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68692C80E42A00565723 /* FooModel.swift */; };
+		B4CD686C2C80E43300565723 /* BarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD686B2C80E43300565723 /* BarModel.swift */; };
+		B4CD686E2C80E43800565723 /* BazModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD686D2C80E43800565723 /* BazModel.swift */; };
+		B4CD68712C816D2200565723 /* FizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68702C816D2200565723 /* FizModel.swift */; };
+		B4CD688A2C855EDC00565723 /* CopilotDummy_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68892C855EDC00565723 /* CopilotDummy_iOSTests.swift */; };
+		B4CD68942C855EDC00565723 /* CopilotDummy_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68932C855EDC00565723 /* CopilotDummy_iOSUITests.swift */; };
+		B4CD68962C855EDC00565723 /* CopilotDummy_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68952C855EDC00565723 /* CopilotDummy_iOSUITestsLaunchTests.swift */; };
+		B4CD68A12C855F7A00565723 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68A02C855F7A00565723 /* Launch.storyboard */; };
+		B4CD68A32C855F8D00565723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD68A22C855F8D00565723 /* Main.storyboard */; };
+		B4CD68AB2C85600300565723 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD67EF2C806FA200565723 /* ContentView.swift */; };
+		B4CD68AC2C85600B00565723 /* CopilotDummyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD67ED2C806FA200565723 /* CopilotDummyApp.swift */; };
+		B4CD68AD2C85605000565723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD67F12C806FA700565723 /* Assets.xcassets */; };
+		B4CD68AE2C85605800565723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD67F42C806FA700565723 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4CD67FC2C806FAA00565723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4CD67E22C806FA200565723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4CD67E92C806FA200565723;
+			remoteInfo = Sample;
+		};
+		B4CD68062C806FAA00565723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4CD67E22C806FA200565723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4CD67E92C806FA200565723;
+			remoteInfo = Sample;
+		};
+		B4CD68862C855EDC00565723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4CD67E22C806FA200565723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4CD68752C855ED600565723;
+			remoteInfo = "CopilotDummy-iOS";
+		};
+		B4CD68902C855EDC00565723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4CD67E22C806FA200565723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4CD68752C855ED600565723;
+			remoteInfo = "CopilotDummy-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4CD67EA2C806FA200565723 /* CopilotDummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopilotDummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD67ED2C806FA200565723 /* CopilotDummyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummyApp.swift; sourceTree = "<group>"; };
+		B4CD67EF2C806FA200565723 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4CD67F12C806FA700565723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CD67F42C806FA700565723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4CD67F62C806FA700565723 /* CopilotDummy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CopilotDummy.entitlements; sourceTree = "<group>"; };
+		B4CD67FB2C806FAA00565723 /* CopilotDummyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotDummyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD67FF2C806FAA00565723 /* CopilotDummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummyTests.swift; sourceTree = "<group>"; };
+		B4CD68052C806FAA00565723 /* CopilotDummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotDummyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD68092C806FAA00565723 /* CopilotDummyTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummyTestsUITests.swift; sourceTree = "<group>"; };
+		B4CD680B2C806FAA00565723 /* CopilotDummyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4CD681A2C80703200565723 /* AssetsA.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsA.xcassets; sourceTree = "<group>"; };
+		B4CD681C2C80704400565723 /* AssetsB.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsB.xcassets; sourceTree = "<group>"; };
+		B4CD681E2C80704E00565723 /* AssetsC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsC.xcassets; sourceTree = "<group>"; };
+		B4CD68212C80707400565723 /* ViewA.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewA.xib; sourceTree = "<group>"; };
+		B4CD68232C80708500565723 /* ViewB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewB.xib; sourceTree = "<group>"; };
+		B4CD68252C80708B00565723 /* ViewC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewC.xib; sourceTree = "<group>"; };
+		B4CD68272C80709000565723 /* ViewD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewD.xib; sourceTree = "<group>"; };
+		B4CD68292C80709600565723 /* ViewE.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewE.xib; sourceTree = "<group>"; };
+		B4CD682C2C8070D700565723 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B4CD682E2C8070EE00565723 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		B4CD68342C80877600565723 /* SampleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUser.swift; sourceTree = "<group>"; };
+		B4CD68362C80878300565723 /* SampleFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFood.swift; sourceTree = "<group>"; };
+		B4CD683D2C80E30F00565723 /* FooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooView.swift; sourceTree = "<group>"; };
+		B4CD683F2C80E31500565723 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		B4CD68412C80E31C00565723 /* BazView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazView.swift; sourceTree = "<group>"; };
+		B4CD68442C80E33F00565723 /* FooService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooService.swift; sourceTree = "<group>"; };
+		B4CD68462C80E35200565723 /* BarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarService.swift; sourceTree = "<group>"; };
+		B4CD68482C80E35900565723 /* BazService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazService.swift; sourceTree = "<group>"; };
+		B4CD684B2C80E36800565723 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B4CD684D2C80E36E00565723 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		B4CD68502C80E38C00565723 /* FooControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooControllerTests.swift; sourceTree = "<group>"; };
+		B4CD68522C80E39300565723 /* BarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarControllerTests.swift; sourceTree = "<group>"; };
+		B4CD68542C80E39D00565723 /* BazControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazControllerTests.swift; sourceTree = "<group>"; };
+		B4CD68572C80E3BA00565723 /* FooModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooModelTests.swift; sourceTree = "<group>"; };
+		B4CD68592C80E3C400565723 /* BarModelTsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarModelTsets.swift; sourceTree = "<group>"; };
+		B4CD685B2C80E3CD00565723 /* BazModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazModelTests.swift; sourceTree = "<group>"; };
+		B4CD685E2C80E3DA00565723 /* FooServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooServiceTests.swift; sourceTree = "<group>"; };
+		B4CD68602C80E3E300565723 /* BarServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarServiceTests.swift; sourceTree = "<group>"; };
+		B4CD68622C80E3EA00565723 /* BazServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazServiceTests.swift; sourceTree = "<group>"; };
+		B4CD68652C80E40000565723 /* HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTests.swift; sourceTree = "<group>"; };
+		B4CD68672C80E40900565723 /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		B4CD68692C80E42A00565723 /* FooModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooModel.swift; sourceTree = "<group>"; };
+		B4CD686B2C80E43300565723 /* BarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarModel.swift; sourceTree = "<group>"; };
+		B4CD686D2C80E43800565723 /* BazModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazModel.swift; sourceTree = "<group>"; };
+		B4CD68702C816D2200565723 /* FizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizModel.swift; sourceTree = "<group>"; };
+		B4CD68762C855ED600565723 /* CopilotDummy-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CopilotDummy-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD68852C855EDC00565723 /* CopilotDummy-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CopilotDummy-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD68892C855EDC00565723 /* CopilotDummy_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummy_iOSTests.swift; sourceTree = "<group>"; };
+		B4CD688F2C855EDC00565723 /* CopilotDummy-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CopilotDummy-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CD68932C855EDC00565723 /* CopilotDummy_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummy_iOSUITests.swift; sourceTree = "<group>"; };
+		B4CD68952C855EDC00565723 /* CopilotDummy_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotDummy_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4CD68A02C855F7A00565723 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		B4CD68A22C855F8D00565723 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4CD67E72C806FA200565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD67F82C806FAA00565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68022C806FAA00565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68732C855ED600565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68822C855EDC00565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD688C2C855EDC00565723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4CD67E12C806FA200565723 = {
+			isa = PBXGroup;
+			children = (
+				B4CD67EC2C806FA200565723 /* CopilotDummy */,
+				B4CD67FE2C806FAA00565723 /* CopilotDummyTests */,
+				B4CD68082C806FAA00565723 /* CopilotDummyTestsUITests */,
+				B4CD68882C855EDC00565723 /* CopilotDummy-iOSTests */,
+				B4CD68922C855EDC00565723 /* CopilotDummy-iOSUITests */,
+				B4CD67EB2C806FA200565723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4CD67EB2C806FA200565723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD67EA2C806FA200565723 /* CopilotDummy.app */,
+				B4CD67FB2C806FAA00565723 /* CopilotDummyTests.xctest */,
+				B4CD68052C806FAA00565723 /* CopilotDummyUITests.xctest */,
+				B4CD68762C855ED600565723 /* CopilotDummy-iOS.app */,
+				B4CD68852C855EDC00565723 /* CopilotDummy-iOSTests.xctest */,
+				B4CD688F2C855EDC00565723 /* CopilotDummy-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4CD67EC2C806FA200565723 /* CopilotDummy */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD67F62C806FA700565723 /* CopilotDummy.entitlements */,
+				B4CD68192C806FF100565723 /* resource */,
+				B4CD68182C806FD500565723 /* source */,
+				B4CD67F32C806FA700565723 /* Preview Content */,
+			);
+			path = CopilotDummy;
+			sourceTree = "<group>";
+		};
+		B4CD67F32C806FA700565723 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD67F42C806FA700565723 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4CD67FE2C806FAA00565723 /* CopilotDummyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68642C80E3EF00565723 /* Utils */,
+				B4CD685D2C80E3D100565723 /* Services */,
+				B4CD68562C80E3A300565723 /* Models */,
+				B4CD684F2C80E38000565723 /* Controllers */,
+				B4CD67FF2C806FAA00565723 /* CopilotDummyTests.swift */,
+			);
+			path = CopilotDummyTests;
+			sourceTree = "<group>";
+		};
+		B4CD68082C806FAA00565723 /* CopilotDummyTestsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68092C806FAA00565723 /* CopilotDummyTestsUITests.swift */,
+				B4CD680B2C806FAA00565723 /* CopilotDummyUITestsLaunchTests.swift */,
+			);
+			path = CopilotDummyTestsUITests;
+			sourceTree = "<group>";
+		};
+		B4CD68182C806FD500565723 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD684A2C80E35D00565723 /* Utils */,
+				B4CD68432C80E32F00565723 /* Services */,
+				B4CD68312C80832B00565723 /* Models */,
+				B4CD68302C80832500565723 /* Views */,
+				B4CD67ED2C806FA200565723 /* CopilotDummyApp.swift */,
+				B4CD67EF2C806FA200565723 /* ContentView.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		B4CD68192C806FF100565723 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD67F12C806FA700565723 /* Assets.xcassets */,
+				B4CD681A2C80703200565723 /* AssetsA.xcassets */,
+				B4CD681C2C80704400565723 /* AssetsB.xcassets */,
+				B4CD681E2C80704E00565723 /* AssetsC.xcassets */,
+				B4CD682B2C8070C700565723 /* storyboard */,
+				B4CD68202C80705C00565723 /* xib */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B4CD68202C80705C00565723 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68212C80707400565723 /* ViewA.xib */,
+				B4CD68232C80708500565723 /* ViewB.xib */,
+				B4CD68252C80708B00565723 /* ViewC.xib */,
+				B4CD68272C80709000565723 /* ViewD.xib */,
+				B4CD68292C80709600565723 /* ViewE.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		B4CD682B2C8070C700565723 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68A42C855F9600565723 /* MacOS */,
+				B4CD68A52C855F9F00565723 /* iOS */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		B4CD68302C80832500565723 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD683D2C80E30F00565723 /* FooView.swift */,
+				B4CD683F2C80E31500565723 /* BarView.swift */,
+				B4CD68412C80E31C00565723 /* BazView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4CD68312C80832B00565723 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD686F2C816D1A00565723 /* FizModel */,
+				B4CD683C2C808F8400565723 /* FooModel */,
+				B4CD683B2C808F7D00565723 /* BarModel */,
+				B4CD683A2C808F7400565723 /* BazModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CD683A2C808F7400565723 /* BazModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68342C80877600565723 /* SampleUser.swift */,
+				B4CD686D2C80E43800565723 /* BazModel.swift */,
+			);
+			path = BazModel;
+			sourceTree = "<group>";
+		};
+		B4CD683B2C808F7D00565723 /* BarModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68362C80878300565723 /* SampleFood.swift */,
+				B4CD686B2C80E43300565723 /* BarModel.swift */,
+			);
+			path = BarModel;
+			sourceTree = "<group>";
+		};
+		B4CD683C2C808F8400565723 /* FooModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68692C80E42A00565723 /* FooModel.swift */,
+			);
+			path = FooModel;
+			sourceTree = "<group>";
+		};
+		B4CD68432C80E32F00565723 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68442C80E33F00565723 /* FooService.swift */,
+				B4CD68462C80E35200565723 /* BarService.swift */,
+				B4CD68482C80E35900565723 /* BazService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4CD684A2C80E35D00565723 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD684B2C80E36800565723 /* Helper.swift */,
+				B4CD684D2C80E36E00565723 /* Validator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B4CD684F2C80E38000565723 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68502C80E38C00565723 /* FooControllerTests.swift */,
+				B4CD68522C80E39300565723 /* BarControllerTests.swift */,
+				B4CD68542C80E39D00565723 /* BazControllerTests.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4CD68562C80E3A300565723 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68572C80E3BA00565723 /* FooModelTests.swift */,
+				B4CD68592C80E3C400565723 /* BarModelTsets.swift */,
+				B4CD685B2C80E3CD00565723 /* BazModelTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CD685D2C80E3D100565723 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD685E2C80E3DA00565723 /* FooServiceTests.swift */,
+				B4CD68602C80E3E300565723 /* BarServiceTests.swift */,
+				B4CD68622C80E3EA00565723 /* BazServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4CD68642C80E3EF00565723 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68652C80E40000565723 /* HelperTests.swift */,
+				B4CD68672C80E40900565723 /* ValidatorTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B4CD686F2C816D1A00565723 /* FizModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68702C816D2200565723 /* FizModel.swift */,
+			);
+			path = FizModel;
+			sourceTree = "<group>";
+		};
+		B4CD68882C855EDC00565723 /* CopilotDummy-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68892C855EDC00565723 /* CopilotDummy_iOSTests.swift */,
+			);
+			path = "CopilotDummy-iOSTests";
+			sourceTree = "<group>";
+		};
+		B4CD68922C855EDC00565723 /* CopilotDummy-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68932C855EDC00565723 /* CopilotDummy_iOSUITests.swift */,
+				B4CD68952C855EDC00565723 /* CopilotDummy_iOSUITestsLaunchTests.swift */,
+			);
+			path = "CopilotDummy-iOSUITests";
+			sourceTree = "<group>";
+		};
+		B4CD68A42C855F9600565723 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD682C2C8070D700565723 /* Main.storyboard */,
+				B4CD682E2C8070EE00565723 /* Launch.storyboard */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		B4CD68A52C855F9F00565723 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CD68A02C855F7A00565723 /* Launch.storyboard */,
+				B4CD68A22C855F8D00565723 /* Main.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4CD67E92C806FA200565723 /* CopilotDummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD680F2C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy" */;
+			buildPhases = (
+				B4CD67E62C806FA200565723 /* Sources */,
+				B4CD67E72C806FA200565723 /* Frameworks */,
+				B4CD67E82C806FA200565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopilotDummy;
+			productName = Sample;
+			productReference = B4CD67EA2C806FA200565723 /* CopilotDummy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4CD67FA2C806FAA00565723 /* CopilotDummyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD68122C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummyTests" */;
+			buildPhases = (
+				B4CD67F72C806FAA00565723 /* Sources */,
+				B4CD67F82C806FAA00565723 /* Frameworks */,
+				B4CD67F92C806FAA00565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4CD67FD2C806FAA00565723 /* PBXTargetDependency */,
+			);
+			name = CopilotDummyTests;
+			productName = SampleTests;
+			productReference = B4CD67FB2C806FAA00565723 /* CopilotDummyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4CD68042C806FAA00565723 /* CopilotDummyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD68152C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummyUITests" */;
+			buildPhases = (
+				B4CD68012C806FAA00565723 /* Sources */,
+				B4CD68022C806FAA00565723 /* Frameworks */,
+				B4CD68032C806FAA00565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4CD68072C806FAA00565723 /* PBXTargetDependency */,
+			);
+			name = CopilotDummyUITests;
+			productName = SampleUITests;
+			productReference = B4CD68052C806FAA00565723 /* CopilotDummyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B4CD68752C855ED600565723 /* CopilotDummy-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD689D2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOS" */;
+			buildPhases = (
+				B4CD68722C855ED600565723 /* Sources */,
+				B4CD68732C855ED600565723 /* Frameworks */,
+				B4CD68742C855ED600565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CopilotDummy-iOS";
+			productName = "CopilotDummy-iOS";
+			productReference = B4CD68762C855ED600565723 /* CopilotDummy-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4CD68842C855EDC00565723 /* CopilotDummy-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD689E2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOSTests" */;
+			buildPhases = (
+				B4CD68812C855EDC00565723 /* Sources */,
+				B4CD68822C855EDC00565723 /* Frameworks */,
+				B4CD68832C855EDC00565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4CD68872C855EDC00565723 /* PBXTargetDependency */,
+			);
+			name = "CopilotDummy-iOSTests";
+			productName = "CopilotDummy-iOSTests";
+			productReference = B4CD68852C855EDC00565723 /* CopilotDummy-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4CD688E2C855EDC00565723 /* CopilotDummy-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CD689F2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOSUITests" */;
+			buildPhases = (
+				B4CD688B2C855EDC00565723 /* Sources */,
+				B4CD688C2C855EDC00565723 /* Frameworks */,
+				B4CD688D2C855EDC00565723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4CD68912C855EDC00565723 /* PBXTargetDependency */,
+			);
+			name = "CopilotDummy-iOSUITests";
+			productName = "CopilotDummy-iOSUITests";
+			productReference = B4CD688F2C855EDC00565723 /* CopilotDummy-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4CD67E22C806FA200565723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B4CD67E92C806FA200565723 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B4CD67FA2C806FAA00565723 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4CD67E92C806FA200565723;
+					};
+					B4CD68042C806FAA00565723 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4CD67E92C806FA200565723;
+					};
+					B4CD68752C855ED600565723 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B4CD68842C855EDC00565723 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4CD68752C855ED600565723;
+					};
+					B4CD688E2C855EDC00565723 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4CD68752C855ED600565723;
+					};
+				};
+			};
+			buildConfigurationList = B4CD67E52C806FA200565723 /* Build configuration list for PBXProject "CopilotDummy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4CD67E12C806FA200565723;
+			productRefGroup = B4CD67EB2C806FA200565723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CD67E92C806FA200565723 /* CopilotDummy */,
+				B4CD67FA2C806FAA00565723 /* CopilotDummyTests */,
+				B4CD68042C806FAA00565723 /* CopilotDummyUITests */,
+				B4CD68752C855ED600565723 /* CopilotDummy-iOS */,
+				B4CD68842C855EDC00565723 /* CopilotDummy-iOSTests */,
+				B4CD688E2C855EDC00565723 /* CopilotDummy-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4CD67E82C806FA200565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD682A2C80709600565723 /* ViewE.xib in Resources */,
+				B4CD68262C80708B00565723 /* ViewC.xib in Resources */,
+				B4CD67F52C806FA700565723 /* Preview Assets.xcassets in Resources */,
+				B4CD68282C80709000565723 /* ViewD.xib in Resources */,
+				B4CD68A12C855F7A00565723 /* Launch.storyboard in Resources */,
+				B4CD68222C80707400565723 /* ViewA.xib in Resources */,
+				B4CD68242C80708500565723 /* ViewB.xib in Resources */,
+				B4CD681D2C80704400565723 /* AssetsB.xcassets in Resources */,
+				B4CD681F2C80704E00565723 /* AssetsC.xcassets in Resources */,
+				B4CD682D2C8070D700565723 /* Main.storyboard in Resources */,
+				B4CD68A32C855F8D00565723 /* Main.storyboard in Resources */,
+				B4CD681B2C80703200565723 /* AssetsA.xcassets in Resources */,
+				B4CD67F22C806FA700565723 /* Assets.xcassets in Resources */,
+				B4CD682F2C8070EE00565723 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD67F92C806FAA00565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68032C806FAA00565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68742C855ED600565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD68AE2C85605800565723 /* Preview Assets.xcassets in Resources */,
+				B4CD68AD2C85605000565723 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68832C855EDC00565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD688D2C855EDC00565723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4CD67E62C806FA200565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD68402C80E31600565723 /* BarView.swift in Sources */,
+				B4CD68422C80E31C00565723 /* BazView.swift in Sources */,
+				B4CD68352C80877600565723 /* SampleUser.swift in Sources */,
+				B4CD68712C816D2200565723 /* FizModel.swift in Sources */,
+				B4CD684E2C80E36E00565723 /* Validator.swift in Sources */,
+				B4CD68452C80E33F00565723 /* FooService.swift in Sources */,
+				B4CD68372C80878300565723 /* SampleFood.swift in Sources */,
+				B4CD67F02C806FA200565723 /* ContentView.swift in Sources */,
+				B4CD686E2C80E43800565723 /* BazModel.swift in Sources */,
+				B4CD67EE2C806FA200565723 /* CopilotDummyApp.swift in Sources */,
+				B4CD68492C80E35900565723 /* BazService.swift in Sources */,
+				B4CD684C2C80E36800565723 /* Helper.swift in Sources */,
+				B4CD683E2C80E31000565723 /* FooView.swift in Sources */,
+				B4CD68472C80E35200565723 /* BarService.swift in Sources */,
+				B4CD686A2C80E42A00565723 /* FooModel.swift in Sources */,
+				B4CD686C2C80E43300565723 /* BarModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD67F72C806FAA00565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD68682C80E40900565723 /* ValidatorTests.swift in Sources */,
+				B4CD685F2C80E3DA00565723 /* FooServiceTests.swift in Sources */,
+				B4CD68532C80E39300565723 /* BarControllerTests.swift in Sources */,
+				B4CD68512C80E38C00565723 /* FooControllerTests.swift in Sources */,
+				B4CD68002C806FAA00565723 /* CopilotDummyTests.swift in Sources */,
+				B4CD685A2C80E3C400565723 /* BarModelTsets.swift in Sources */,
+				B4CD68632C80E3EA00565723 /* BazServiceTests.swift in Sources */,
+				B4CD68612C80E3E300565723 /* BarServiceTests.swift in Sources */,
+				B4CD68662C80E40000565723 /* HelperTests.swift in Sources */,
+				B4CD68582C80E3BA00565723 /* FooModelTests.swift in Sources */,
+				B4CD68552C80E39D00565723 /* BazControllerTests.swift in Sources */,
+				B4CD685C2C80E3CD00565723 /* BazModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68012C806FAA00565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD680C2C806FAA00565723 /* CopilotDummyUITestsLaunchTests.swift in Sources */,
+				B4CD680A2C806FAA00565723 /* CopilotDummyTestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68722C855ED600565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD68AB2C85600300565723 /* ContentView.swift in Sources */,
+				B4CD68AC2C85600B00565723 /* CopilotDummyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD68812C855EDC00565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD688A2C855EDC00565723 /* CopilotDummy_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CD688B2C855EDC00565723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD68962C855EDC00565723 /* CopilotDummy_iOSUITestsLaunchTests.swift in Sources */,
+				B4CD68942C855EDC00565723 /* CopilotDummy_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4CD67FD2C806FAA00565723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4CD67E92C806FA200565723 /* CopilotDummy */;
+			targetProxy = B4CD67FC2C806FAA00565723 /* PBXContainerItemProxy */;
+		};
+		B4CD68072C806FAA00565723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4CD67E92C806FA200565723 /* CopilotDummy */;
+			targetProxy = B4CD68062C806FAA00565723 /* PBXContainerItemProxy */;
+		};
+		B4CD68872C855EDC00565723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4CD68752C855ED600565723 /* CopilotDummy-iOS */;
+			targetProxy = B4CD68862C855EDC00565723 /* PBXContainerItemProxy */;
+		};
+		B4CD68912C855EDC00565723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4CD68752C855ED600565723 /* CopilotDummy-iOS */;
+			targetProxy = B4CD68902C855EDC00565723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4CD680D2C806FAA00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4CD680E2C806FAA00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B4CD68102C806FAA00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CopilotDummy/CopilotDummy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CopilotDummy/Preview Content\"";
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasaka.CopilotDummy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4CD68112C806FAA00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CopilotDummy/CopilotDummy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CopilotDummy/Preview Content\"";
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyasaka.CopilotDummy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B4CD68132C806FAA00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kufu.SampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotDummy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotDummy";
+			};
+			name = Debug;
+		};
+		B4CD68142C806FAA00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kufu.SampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotDummy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotDummy";
+			};
+			name = Release;
+		};
+		B4CD68162C806FAA00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kufu.SampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sample;
+			};
+			name = Debug;
+		};
+		B4CD68172C806FAA00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kufu.SampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sample;
+			};
+			name = Release;
+		};
+		B4CD68972C855EDC00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CopilotDummy/Preview Content\"";
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4CD68982C855EDC00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CopilotDummy/Preview Content\"";
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4CD68992C855EDC00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotDummy-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotDummy-iOS";
+			};
+			name = Debug;
+		};
+		B4CD689A2C855EDC00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotDummy-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotDummy-iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4CD689B2C855EDC00565723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CopilotDummy-iOS";
+			};
+			name = Debug;
+		};
+		B4CD689C2C855EDC00565723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MJPV8TKZFH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kufu.CopilotDummy-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CopilotDummy-iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4CD67E52C806FA200565723 /* Build configuration list for PBXProject "CopilotDummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD680D2C806FAA00565723 /* Debug */,
+				B4CD680E2C806FAA00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD680F2C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD68102C806FAA00565723 /* Debug */,
+				B4CD68112C806FAA00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD68122C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD68132C806FAA00565723 /* Debug */,
+				B4CD68142C806FAA00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD68152C806FAA00565723 /* Build configuration list for PBXNativeTarget "CopilotDummyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD68162C806FAA00565723 /* Debug */,
+				B4CD68172C806FAA00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD689D2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD68972C855EDC00565723 /* Debug */,
+				B4CD68982C855EDC00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD689E2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD68992C855EDC00565723 /* Debug */,
+				B4CD689A2C855EDC00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CD689F2C855EDC00565723 /* Build configuration list for PBXNativeTarget "CopilotDummy-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CD689B2C855EDC00565723 /* Debug */,
+				B4CD689C2C855EDC00565723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4CD67E22C806FA200565723 /* Project object */;
+}
