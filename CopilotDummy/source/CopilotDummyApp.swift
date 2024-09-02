@@ -1,10 +1,3 @@
-//
-//  CopilotDummyApp.swift
-//  Copilot-Dummy
-//
-//  Created by naoya.miyasaka on 2024/08/29.
-//
-
 import SwiftUI
 
 @main
