@@ -34,9 +34,6 @@
 		B4CD68492C80E35900565723 /* BazService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68482C80E35900565723 /* BazService.swift */; };
 		B4CD684C2C80E36800565723 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD684B2C80E36800565723 /* Helper.swift */; };
 		B4CD684E2C80E36E00565723 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD684D2C80E36E00565723 /* Validator.swift */; };
-		B4CD68512C80E38C00565723 /* FooControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68502C80E38C00565723 /* FooControllerTests.swift */; };
-		B4CD68532C80E39300565723 /* BarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68522C80E39300565723 /* BarControllerTests.swift */; };
-		B4CD68552C80E39D00565723 /* BazControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68542C80E39D00565723 /* BazControllerTests.swift */; };
 		B4CD68582C80E3BA00565723 /* FooModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68572C80E3BA00565723 /* FooModelTests.swift */; };
 		B4CD685A2C80E3C400565723 /* BarModelTsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD68592C80E3C400565723 /* BarModelTsets.swift */; };
 		B4CD685C2C80E3CD00565723 /* BazModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD685B2C80E3CD00565723 /* BazModelTests.swift */; };
@@ -123,9 +120,6 @@
 		B4CD68482C80E35900565723 /* BazService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazService.swift; sourceTree = "<group>"; };
 		B4CD684B2C80E36800565723 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		B4CD684D2C80E36E00565723 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		B4CD68502C80E38C00565723 /* FooControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooControllerTests.swift; sourceTree = "<group>"; };
-		B4CD68522C80E39300565723 /* BarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarControllerTests.swift; sourceTree = "<group>"; };
-		B4CD68542C80E39D00565723 /* BazControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazControllerTests.swift; sourceTree = "<group>"; };
 		B4CD68572C80E3BA00565723 /* FooModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooModelTests.swift; sourceTree = "<group>"; };
 		B4CD68592C80E3C400565723 /* BarModelTsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarModelTsets.swift; sourceTree = "<group>"; };
 		B4CD685B2C80E3CD00565723 /* BazModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazModelTests.swift; sourceTree = "<group>"; };
@@ -244,7 +238,6 @@
 				B4CD68642C80E3EF00565723 /* Utils */,
 				B4CD685D2C80E3D100565723 /* Services */,
 				B4CD68562C80E3A300565723 /* Models */,
-				B4CD684F2C80E38000565723 /* Controllers */,
 				B4CD67FF2C806FAA00565723 /* CopilotDummyTests.swift */,
 			);
 			path = CopilotDummyTests;
@@ -370,16 +363,6 @@
 				B4CD684D2C80E36E00565723 /* Validator.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		B4CD684F2C80E38000565723 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B4CD68502C80E38C00565723 /* FooControllerTests.swift */,
-				B4CD68522C80E39300565723 /* BarControllerTests.swift */,
-				B4CD68542C80E39D00565723 /* BazControllerTests.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B4CD68562C80E3A300565723 /* Models */ = {
@@ -711,15 +694,12 @@
 			files = (
 				B4CD68682C80E40900565723 /* ValidatorTests.swift in Sources */,
 				B4CD685F2C80E3DA00565723 /* FooServiceTests.swift in Sources */,
-				B4CD68532C80E39300565723 /* BarControllerTests.swift in Sources */,
-				B4CD68512C80E38C00565723 /* FooControllerTests.swift in Sources */,
 				B4CD68002C806FAA00565723 /* CopilotDummyTests.swift in Sources */,
 				B4CD685A2C80E3C400565723 /* BarModelTsets.swift in Sources */,
 				B4CD68632C80E3EA00565723 /* BazServiceTests.swift in Sources */,
 				B4CD68612C80E3E300565723 /* BarServiceTests.swift in Sources */,
 				B4CD68662C80E40000565723 /* HelperTests.swift in Sources */,
 				B4CD68582C80E3BA00565723 /* FooModelTests.swift in Sources */,
-				B4CD68552C80E39D00565723 /* BazControllerTests.swift in Sources */,
 				B4CD685C2C80E3CD00565723 /* BazModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
